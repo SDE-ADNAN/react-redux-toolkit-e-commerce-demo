@@ -47,9 +47,9 @@ img {
   margin-left: 40px;
 }
 .navLink {
-  text-decoration: none;
-  color: black;
-  margin-left: 20px;
+  text-decoration: none !important;
+  color: black !important;
+  margin-left: 20px !important;
 }
 
 .cartCard {

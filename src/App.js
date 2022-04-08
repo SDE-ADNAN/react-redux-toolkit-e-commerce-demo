@@ -17,7 +17,7 @@ function App() {
           <Route className="navLink" path="/" element={<Home/>} />
           <Route className="navLink" path="/cart" element={<Cart/>} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter >
      </Provider>
     </div>
   );

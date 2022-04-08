@@ -21,6 +21,6 @@ const cartSlice = createSlice({
     }
 })
 
-
-export const {add ,remove}=createSlice.actions;
-export default cartSlice.reducers;
+//  actions and reducer are the properties provided by the createSlice function..
+export const {add ,remove}=cartSlice.actions;
+export default cartSlice.reducer;

@@ -11,7 +11,7 @@ const Navbar = () => {
       <div>
         <Link to="/">Home</Link>
         <Link to="/cart">Cart</Link>
-        <span className="cartCount"> Cart Items : {items.length } :</span>
+        <span className="cartCount"> Cart Items : {items.length} :</span>
       </div>
     </div>
   );

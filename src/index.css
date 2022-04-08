@@ -61,3 +61,20 @@ img {
   padding: 14px;
   border-radius: 5px;
 }
+
+.logo{
+  font-size: 2rem;
+  font-weight: bolder;
+  color:#093980;
+
+}
+.logo:hover{
+  transition: all ease-in-out 0.2s;
+  font-size: 4rem;
+  font-weight: bolder;
+  color:#093980;
+  -webkit-transition: all ease-in-out 0.2s;
+  -moz-transition: all ease-in-out 0.2s;
+  -ms-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
+}

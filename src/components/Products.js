@@ -38,7 +38,7 @@ const Products = () => {
             <div className="card" key={product.id}>
               <img src={product.image} alt={product.title} />
               <h4>{product.title}</h4>
-              <h5>{product.price}</h5>
+              <h5>${product.price}</h5>
               <button
                 onClick={() => {
                   handleAdd(product);
